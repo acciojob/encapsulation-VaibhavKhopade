@@ -6,7 +6,7 @@ public class Main {
         RWOnly obj = new RWOnly();
         
         // Task 4: Try setting a value to name by directly accessing it using obj and printing it
-        // obj.name = "John"; // This will cause an error
+        // obj.name = "Vaibhav"; // This will cause an error
         // System.out.println(obj.name); // This will also cause an error
 
         /*
@@ -16,7 +16,7 @@ public class Main {
         */
 
         // Task 6: Setting and accessing the value using setter and getter
-        obj.setName("John"); // Set the name using the setter
+        obj.setName("Vaibhav"); // Set the name using the setter
         System.out.println("Name: " + obj.getName()); // Access the name using the getter
     }
 }
